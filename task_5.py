@@ -10,5 +10,5 @@ def factorial(n):
 def report():
     digit=1
     for i in range(101):
-        print(f"{i}! is {len(str(digit))} digits long")
+        print(f"{i :>3}! is {len(str(digit)) :>3} digits long")
         digit=digit*(i+1)
